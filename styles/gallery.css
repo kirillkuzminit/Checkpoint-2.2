@@ -1,0 +1,23 @@
+.bedroom{
+	position: relative;	
+	height: 716px;
+	background-image: url('../recources/bedroom.jpg');
+	background-repeat: no-repeat;	
+	background-position: 50%;	
+	background-size: cover;
+}
+.bedroom-text{
+	position: absolute;
+	width: 443px;
+	bottom: 60px;
+	left: 125px;
+	font-size: 30px;
+	line-height: 41px;	
+	color: #FFFFFF;
+}
+@media (max-width: 1199px) {
+	
+}
+@media (max-width: 767px){
+
+}

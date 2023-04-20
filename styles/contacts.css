@@ -1,0 +1,59 @@
+.contacts{	
+	padding: 175px 0 150px 0;
+}
+.contacts-title{
+	position: relative;
+	margin-top: 12px;
+	margin-left: -1px;
+}
+.contacts-title::before{
+	content: '';
+	position: absolute;
+	display: block;
+	bottom: 25px;
+	margin: 0 0 13px -4px;
+	width: 24px;
+	height: 23px;
+	background-image: url('../recources/mobile.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.contacts-number {	
+	margin-top: 32px;
+	width: 472px;
+	padding-bottom: 7px;
+	border-bottom: 3px solid #fff;
+}
+.contacts-number:hover{	
+	opacity: 0.5;	
+	border-bottom: 3px solid #121212;
+}
+.contacts-number-link{
+	font-size: 60px;
+	line-height: 60px;
+	text-decoration: none;
+	color: #121212;
+}
+.contacts-mail {
+	margin-top: 20px;
+	width: 412px;	
+	padding-bottom: 8px;
+	border-bottom: 3px solid #fff;
+}
+.contacts-mail:hover{	
+	opacity: 0.5;	
+	border-bottom: 3px solid #121212;
+}
+.contacts-mail-link{
+	font-size: 60px;
+	line-height: 60px;
+	color: #121212;
+	text-decoration: none;
+}
+@media (max-width: 1199px) {
+	
+}
+@media (max-width: 767px){
+
+}
